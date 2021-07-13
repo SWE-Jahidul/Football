@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    main{
+        display: flex;
+         flex-direction: column;
+        
+}
+
+.container{
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding:30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+/* =========================================================
+                Top Header Start
+=============================================================*/
+.top-header{
+    background-color: #2D25A0;
+    height: 677px;
+}
+
+.top-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+
+}
+.top-header-details{
+    display: inline-block;
+    align-items: center;
+}
+
+.top-header-heading{
+    margin-top: 20%;
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 20%;
+    color: #FFFFFF;
+}
+.watch-live{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 0px;
+    color: white;
+    margin-left: 20%;
+
+}
+.watch-live:hover{
+    background-color: white;
+    color: black;
+}
+
+.top-header-images img {
+    margin-top: 20%;
+    width: 556.01px;
+    height: 438px;
+    margin-bottom: 66px;
+}
+.top-images{
+    transition: width 1s ease, height 2s, transform 3s ;
+
+}
+.top-images:hover{
+        width: 400px;
+        height: 400px;
+        transform: rotate(5deg);
+    }
+
+/* =========================================================
+                Top Header End
+=============================================================*/
+
+
+/* ============================================================
+                        Players Details Start                   
+================================================================ */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.top-player{
+    width: 330px;
+    height: 474px;
+    background-color: white;
+    margin-bottom: 27px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.player-thumbnil img
+{
+padding: 15px;
+    width: 300px;
+    height: 256px;
+}
+
+.players-details{
+ 
+    padding-left: 15px;
+
+}
+
+/* ==================================================================
+                              footer setion start
+=================================================================== */
+
+.main-footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-images img{
+    width: 483.87px;
+height: 110px;
+}
+
+.social-media {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    }
+.social-media a{
+    color: #969BAB;
+    padding: 5px;
+
+}
+.social-media :hover{
+    color: #E02C6D;
+}
+.copy-right{
+ font-size: 18px;
+ font-weight: 400;
+ text-align: center;
+
+}
