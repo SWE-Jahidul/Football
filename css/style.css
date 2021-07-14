@@ -124,6 +124,52 @@ main {
     color: #6C6C6C;
 }
 
+
+/* ==========================================================================
+                        All heighigts section start 
+ =============================================================================*/
+.all-hilights-copa-amarica{
+    margin-top: 165px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    padding-bottom: 158px;
+}
+
+.all-hiligets-details{
+    margin: 0 auto;
+margin-top: 10%;
+align-items: center;
+margin-left: 29%;
+width: 70%;
+
+}
+
+.all-hiligets-details h1{
+    font-weight: 700;
+}
+
+
+.watch-now{
+margin-left: -25%;}
+
+#watch-now:hover {
+    background-color: rgb(26, 38, 200);
+    color: white;
+
+}
+
+.all-hiligets-images img{
+    width: 567px;
+    height: 427px;
+
+}
+
+
+/* ==========================================================================
+                        All heighigts section End  
+ =============================================================================*/
+
 /* =================================================================
                         Sponsor Start
 ===================================================================*/
@@ -268,6 +314,7 @@ body{
 .watch-live i {
     padding-left: 10px;
 }
+
 .watch-live:hover {
     background-color: white;
     color: black;
@@ -285,7 +332,7 @@ body{
     width: 330px;
     height: 474px;
     background-color: white;
-    margin-bottom: 27px;
+    margin-bottom: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     flex-direction: column;
     align-items: center;
@@ -296,6 +343,37 @@ body{
     height: 256px;
 }
 
+/* Heighlits start  */
+.all-hilights-copa-amarica{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.all-hiligets-details{
+    margin: 0 auto;
+margin-top: 10%;
+align-items: center;
+
+}
+
+.watch-now{
+    margin-left: auto;
+margin-bottom: 30px;
+}
+    
+    #watch-now:hover {
+        background-color: rgb(26, 38, 200);
+        color: white;
+    
+    }
+    
+    .all-hiligets-images img{
+        margin-left: 14px;
+     width: 90%;
+        height: 270px;
+    
+    }
 
 /* Sponsor Start  */
 .sponsor-logo img{
@@ -307,10 +385,12 @@ body{
 }
 
 .sponsor {
+    margin-top: -25%;
     width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 /* recent vedio  */
