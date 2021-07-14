@@ -1,607 +1,485 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
-
-
-/* Common style */
-
-body {
-    margin: 0px;
-    font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
+/*======================================================================== Common style ======================================================================== */
+ body {
+     margin: 0px;
+     font-family: "Montserrat", sans-serif;
+     overflow-x: hidden;
 }
-
-main {
-    display: flex;
-    flex-direction: column;
+ main {
+     display: flex;
+     flex-direction: column;
 }
-
-.container {
-    background-color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    padding: 30px;
-    margin-top: 21px;
-    border-radius: 5px;
+ .container {
+     background-color: #ffffff;
+     margin-left: auto;
+     margin-right: auto;
+     width: 70%;
+     padding: 30px;
+     margin-top: 21px;
+     border-radius: 5px;
 }
-/* =========================================================
-                Top Header Start
-=============================================================*/
-.top-header {
-    background-color: #2d25a0;
-    height: 677px;
+/* ========================================================= Top Header Start =============================================================*/
+ .top-header {
+     background-color: #2d25a0;
+     height: 677px;
 }
-
-.top-header {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 30px;
+ .top-header {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-row-gap: 30px;
 }
-.top-header-details {
-    display: inline-block;
-    align-items: center;
+ .top-header-details {
+     display: inline-block;
+     align-items: center;
 }
-
-.top-header-heading {
-    margin-top: 20%;
-    font-size: 64px;
-    font-weight: 700;
-    margin-left: 20%;
-    color: #ffffff;
+ .top-header-heading {
+     margin-top: 20%;
+     font-size: 64px;
+     font-weight: 700;
+     margin-left: 20%;
+     color: #ffffff;
 }
-.watch-live {
-    width: 168px;
-    height: 44px;
-    background-color: #e02c6d;
-    border: 0px;
-    color: white;
-    margin-left: 20%;
+ .watch-live {
+     width: 168px;
+     height: 44px;
+     background-color: #e02c6d;
+     border: 0px;
+     color: white;
+     margin-left: 20%;
 }
-
-.watch-live i {
-    padding-left: 10px;
+ .watch-live i {
+     padding-left: 10px;
 }
-.watch-live:hover {
-    background-color: white;
-    color: black;
-
+ .watch-live:hover {
+     background-color: white;
+     color: black;
 }
-
-.top-header-images img {
-    margin-top: 20%;
-    width: 556.01px;
-    height: 438px;
-    margin-bottom: 66px;
+ .top-header-images img {
+     margin-top: 20%;
+     width: 556.01px;
+     height: 438px;
+     margin-bottom: 66px;
 }
-.top-images {
-    transition: width 1s ease, height 2s, transform 3s;
+ .top-images {
+     transition: width 1s ease, height 2s, transform 3s;
 }
-.top-images:hover {
-    width: 400px;
-    height: 400px;
-    transform: rotate(5deg);
+ .top-images:hover {
+     width: 400px;
+     height: 400px;
+     transform: rotate(5deg);
 }
-
-/* =========================================================
-                Top Header End
-=============================================================*/
-
-/* ============================================================
-                        Players Details Start                   
-================================================================ */
-
-.top-players {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+/* ========================================================= Top Header End =============================================================*/
+/* ============================================================ Players Details Start ================================================================ */
+ .top-players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 24px;
 }
-.top-player {
-    margin: 0 auto;
-    width: 330px;
-    height: 474px;
-    background-color: white;
-    margin-bottom: 27px;
-    box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15);
+ .top-player {
+     margin: 0 auto;
+     width: 330px;
+     height: 474px;
+     background-color: white;
+     margin-bottom: 27px;
+     box-shadow: 0 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player-thumbnil img {
-    padding: 15px;
-    width: 300px;
-    height: 256px;
+ .player-thumbnil img {
+     padding: 15px;
+     width: 300px;
+     height: 256px;
 }
-
-.players-details {
-    padding-left: 15px;
-
+ .players-details {
+     padding-left: 15px;
 }
-.players-details h1{
-    font-weight: 900;
+ .players-details h1{
+     font-weight: 900;
 }
-
-.player-discription
-{
-    word-wrap: break-word;
-    margin-bottom: 5%;
-    font-size: 16px;
-    color: #6C6C6C;
+ .player-discription {
+     word-wrap: break-word;
+     margin-bottom: 5%;
+     font-size: 16px;
+     color: #6C6C6C;
 }
-
-
-/* ==========================================================================
-                        All heighigts section start 
- =============================================================================*/
-.all-hilights-copa-amarica{
-    margin-top: 115px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 24px;
-    padding-bottom: 108px;
+/* ========================================================================== All heighigts section start =============================================================================*/
+ .all-hilights-copa-amarica{
+     margin-top: 115px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 24px;
+     padding-bottom: 108px;
 }
-
-.all-hiligets-details{
-    margin: 0 auto;
-margin-top: 10%;
-align-items: center;
-margin-left: 29%;
-width: 70%;
-
+ .all-hiligets-details{
+     margin: 0 auto;
+     margin-top: 10%;
+     align-items: center;
+     margin-left: 29%;
+     width: 70%;
 }
-
-.all-hiligets-details h1{
-    font-weight: 700;
+ .all-hiligets-details h1{
+     font-weight: 700;
 }
-
-
-.watch-now{
-margin-left: -25%;}
-
-#watch-now:hover {
-    background-color: rgb(26, 38, 200);
-    color: white;
-
+ .watch-now{
+     margin-left: -25%;
 }
-
-.all-hiligets-images img{
-    width: 567px;
-    height: 427px;
-
+ #watch-now:hover {
+     background-color: rgb(26, 38, 200);
+     color: white;
 }
-
-
-/* ==========================================================================
-                        All heighigts section End  
- =============================================================================*/
-
-/* =================================================================
-                        Sponsor Start
-===================================================================*/
-.sponsor {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
+ .all-hiligets-images img{
+     width: 567px;
+     height: 427px;
 }
-
-.sponsor h1 {
-    text-align: center;
+/* ========================================================================== All heighigts section End =============================================================================*/
+/* ================================================================= Sponsor Start ===================================================================*/
+ .sponsor {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 20px;
 }
-
-.sponsor-logo {
-    display: flex;
+ .sponsor h1 {
+     text-align: center;
 }
-
-.sponsor-logo a {
-    padding: 15px;
-    margin-bottom: 30px;
+ .sponsor-logo {
+     display: flex;
 }
-/* =================================================================
-                        Sponsor End
-===================================================================*/
-
-/* =================================================================
-                        Latest vedio Start
-===================================================================*/
-.lested_vedio_1 {
-    width: 100%;
-    height: 500px;
-    background-color: #2d25a0;
-    color: white;
-    margin-bottom: 30px;
+ .sponsor-logo a {
+     padding: 15px;
+     margin-bottom: 30px;
 }
-
-.letest_vedio_title {
-    text-align: center;
-    padding: 10px;
+/* ================================================================= Sponsor End ===================================================================*/
+/* ================================================================= Latest vedio Start ===================================================================*/
+ .lested_vedio_1 {
+     width: 100%;
+     height: 500px;
+     background-color: #2d25a0;
+     color: white;
+     margin-bottom: 30px;
 }
-.latest-vedio {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 10px;
+ .letest_vedio_title {
+     text-align: center;
+     padding: 10px;
 }
-
-.vedio {
-    display: flex;
-    align-items: center;
-    margin-left: 2%;
-    padding-right: 3%;
+ .latest-vedio {
+     justify-content: center;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-row-gap: 10px;
 }
-
-/* ==================================================================
-                              footer setion start
-=================================================================== */
-
-.main-footer {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+ .vedio {
+     display: flex;
+     align-items: center;
+     margin-left: 2%;
+     padding-right: 3%;
 }
-
-.logo-images img {
-    width: 483.87px;
-    height: 110px;
+/* ================================================================== footer setion start =================================================================== */
+ .main-footer {
+     display: grid;
+     justify-content: center;
+     align-items: center;
 }
-
-.social-media {
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+ .logo-images img {
+     width: 483.87px;
+     height: 110px;
 }
-.social-media a {
-    color: #969bab;
-    padding: 5px;
+ .social-media {
+     font-size: 24px;
+     font-weight: 400;
+     text-align: center;
 }
-.social-media :hover {
-    color: #e02c6d;
+ .social-media a {
+     color: #969bab;
+     padding: 5px;
 }
-.copy-right {
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
+ .social-media :hover {
+     color: #e02c6d;
 }
-
-
-/* ===============================================================
-                    Responsive For mobile Devices 
-================================================================== */
-
-
-@media only screen and (max-width:688px) {
-body{
-    width: 100%;
+ .copy-right {
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
 }
-/* top header  */
-.top-header-details {
-    display: inline-block;
-    align-items: center;
-}
-
-.top-header-heading {
-    margin-top: 20%;
-    font-size: 36px;
-    font-weight: 700;
-    margin-left: 16px;
-    color: #ffffff;
-}
-
-.top-header {
-    background-color: #2d25a0;
-    height: auto;
-}
-.top-header {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 30px;
-}
-.top-header-details {
-    display: inline-block;
-    align-items: center;
-}
-
-.top-header-images img {
-    margin-top: 20%;
-    width: 329px;
-    height: 259.17px;
-    margin-bottom: 66px;
-}
-
-.watch-live {
-    width: 168px;
-    height: 44px;
-    background-color: #e02c6d;
-    border: 0px;
-    color: white;
-    margin-left: 16px;
-}
-
-.watch-live i {
-    padding-left: 10px;
-}
-
-.watch-live:hover {
-    background-color: white;
-    color: black;
-
-}
-
-/* players start */
-
-.top-players {
-    grid-template-columns: repeat(1, 1fr);
-}
-.top-player {
-    margin: 0 auto;
-    margin-left: -37px;
-    width: 330px;
-    height: 474px;
-    background-color: white;
-    margin-bottom: 20px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    flex-direction: column;
-    align-items: center;
-}
-.player-thumbnil img {
-    padding: 5px;
-    width: 320px;
-    height: 256px;
-}
-
-/* Heighlits start  */
-.all-hilights-copa-amarica{
-    margin-top: 5px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.all-hiligets-details{
-    margin: 0 auto;
-margin-top: 10%;
-align-items: center;
-
-}
-
-.watch-now{
-    margin-left: auto;
-margin-bottom: 30px;
-}
-    
-    #watch-now:hover {
-        background-color: rgb(26, 38, 200);
-        color: white;
-    
+/* =============================================================== Responsive For mobile Devices ================================================================== */
+ @media only screen and (max-width:688px) {
+     body{
+         width: 100%;
     }
-    
-    .all-hiligets-images img{
-        margin-left: 14px;
-     width: 90%;
-        height: 270px;
-    
+    /* top header */
+     .top-header-details {
+         display: inline-block;
+         align-items: center;
     }
-
-/* Sponsor Start  */
-.sponsor-logo img{
-    width: 70px;
-}
-.sponsor-logo a {
-    padding: 2px;
-    margin-bottom: 30px;
-}
-
-.sponsor {
-    margin-top: -25%;
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-}
-
-/* recent vedio  */
-
-.lested_vedio_1 {
-    width: 100%;
-    height: auto;
-    background-color: #2d25a0;
-    color: white;
-    margin-bottom: 30px;
-}
-.latest-vedio {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 10px;
-    margin-left: 0px;
-
-}
-
-.vedio {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-
-.vedio iframe{
-    height: 300;
-    width: 340px;
-    padding-left: 2%;
-}
-
-/* logo and footer  */
-.logo-images img {
-    width: 300px;
-    height: 80px;
-}
-}
-
-
-/* ===============================================================
-                    Responsive For mobile Devices 
-================================================================== */
-
-@media only screen and (min-width:688px) and (max-width:992px) {
-
-    body{
-        width: 100%;
+     .top-header-heading {
+         margin-top: 20%;
+         font-size: 36px;
+         font-weight: 700;
+         margin-left: 16px;
+         color: #ffffff;
     }
-    /* top header  */
-    .top-header-details {
-        display: inline-block;
-        align-items: center;
+     .top-header {
+         background-color: #2d25a0;
+         height: auto;
     }
-    
-    .top-header-heading {
-        margin-top: 20%;
-        font-size: 36px;
-        font-weight: 700;
-        margin-left: 16px;
-        color: #ffffff;
+     .top-header {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-row-gap: 30px;
     }
-    
-    .top-header {
-        background-color: #2d25a0;
-        height: auto;
+     .top-header-details {
+         display: inline-block;
+         align-items: center;
     }
-    .top-header {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 30px;
+     .top-header-images img {
+         margin-top: 20%;
+         width: 329px;
+         height: 259.17px;
+         margin-bottom: 66px;
     }
-    .top-header-details {
-        display: inline-block;
-        align-items: center;
+     .watch-live {
+         width: 168px;
+         height: 44px;
+         background-color: #e02c6d;
+         border: 0px;
+         color: white;
+         margin-left: 16px;
     }
-    
-    .top-header-images img {
-        margin-top: 20%;
-        width: 329px;
-        height: 259.17px;
-        margin-bottom: 66px;
+     .watch-live i {
+         padding-left: 10px;
     }
-    
-    .watch-live {
-        width: 168px;
-        height: 44px;
-        background-color: #e02c6d;
-        border: 0px;
-        color: white;
-        margin-left: 16px;
+     .watch-live:hover {
+         background-color: white;
+         color: black;
     }
-    
-    .watch-live i {
-        padding-left: 10px;
-    }
-    
-    .watch-live:hover {
-        background-color: white;
-        color: black;
-    
-    }
-    
     /* players start */
-    
-    .top-players {
-        grid-template-columns: repeat(2, 1fr);
+     .top-players {
+         grid-template-columns: repeat(1, 1fr);
     }
-    .top-player {
-        margin: 0 auto;
-        margin-left: -23%;
-        width: 330px;
-        height: 474px;
-        background-color: white;
-        margin-bottom: 20px;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        flex-direction: column;
-        align-items: center;
+     .top-player {
+         margin: 0 auto;
+         margin-left: -37px;
+         width: 330px;
+         height: 474px;
+         background-color: white;
+         margin-bottom: 20px;
+         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+         flex-direction: column;
+         align-items: center;
     }
-    .player-thumbnil img {
-        padding: 5px;
-        width: 320px;
-        height: 256px;
+     .player-thumbnil img {
+         padding: 5px;
+         width: 320px;
+         height: 256px;
     }
-    
-    /* Heighlits start  */
-    .all-hilights-copa-amarica{
-        margin-top: 5px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    /* Heighlits start */
+     .all-hilights-copa-amarica{
+         margin-top: 5px;
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
     }
-    
-    .all-hiligets-details{
-        margin: 0 auto;
-    margin-top: 5%;
-    align-items: center;
-    
+     .all-hiligets-details{
+         margin: 0 auto;
+         margin-top: 10%;
+         align-items: center;
     }
-    
-    .watch-now{
-        margin-left: auto;
-    margin-bottom: 30px;
+     .watch-now{
+         margin-left: auto;
+         margin-bottom: 30px;
     }
-        
-        #watch-now:hover {
-            background-color: rgb(26, 38, 200);
-            color: white;
-        
-        }
-        
-        .all-hiligets-images img{
-            margin-left: 14px;
+     #watch-now:hover {
+         background-color: rgb(26, 38, 200);
+         color: white;
+    }
+     .all-hiligets-images img{
+         margin-left: 14px;
          width: 90%;
-            height: 270px;
-        
-        }
-    
-    /* Sponsor Start  */
-   
-    .sponsor {
-        margin-top:-20%;
-        width: 100%;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
+         height: 270px;
     }
-
-    .sponsor-logo img{
-        width: 70px;
+    /* Sponsor Start */
+     .sponsor-logo img{
+         width: 70px;
     }
-    .sponsor-logo a {
-        padding: 2px;
-        margin-bottom: 30px;
+     .sponsor-logo a {
+         padding: 2px;
+         margin-bottom: 30px;
     }
-    
-    
-    /* recent vedio  */
-    
-    .lested_vedio_1 {
-        width: 100%;
-        height: auto;
-        background-color: #2d25a0;
-        color: white;
-        margin-bottom: 30px;
+     .sponsor {
+         margin-top: -25%;
+         width: 100%;
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 30px;
     }
-    .latest-vedio {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 10px;
-        margin-left: 0px;
-    
+    /* recent vedio */
+     .lested_vedio_1 {
+         width: 100%;
+         height: auto;
+         background-color: #2d25a0;
+         color: white;
+         margin-bottom: 30px;
     }
-    
-    .vedio {
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-        padding-bottom: 20px;
+     .latest-vedio {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-row-gap: 10px;
+         margin-left: 0px;
     }
-    
-    .vedio iframe{
-        height: 300;
-        width: 370px;
+     .vedio {
+         display: flex;
+         align-items: center;
+         margin: 0 auto;
+         padding-bottom: 20px;
     }
-    
-    /* logo and footer  */
-    .logo-images img {
-        width: 300px;
-        height: 80px;
+     .vedio iframe{
+         height: 300;
+         width: 340px;
+         padding-left: 2%;
     }
+    /* logo and footer */
+     .logo-images img {
+         width: 300px;
+         height: 80px;
     }
-    
+}
+/* =============================================================== Responsive For mobile Devices ================================================================== */
+ @media only screen and (min-width:688px) and (max-width:992px) {
+     body{
+         width: 100%;
+    }
+    /* top header */
+     .top-header-details {
+         display: inline-block;
+         align-items: center;
+    }
+     .top-header-heading {
+         margin-top: 20%;
+         font-size: 36px;
+         font-weight: 700;
+         margin-left: 16px;
+         color: #ffffff;
+    }
+     .top-header {
+         background-color: #2d25a0;
+         height: auto;
+    }
+     .top-header {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-row-gap: 30px;
+    }
+     .top-header-details {
+         display: inline-block;
+         align-items: center;
+    }
+     .top-header-images img {
+         margin-top: 20%;
+         width: 329px;
+         height: 259.17px;
+         margin-bottom: 66px;
+    }
+     .watch-live {
+         width: 168px;
+         height: 44px;
+         background-color: #e02c6d;
+         border: 0px;
+         color: white;
+         margin-left: 16px;
+    }
+     .watch-live i {
+         padding-left: 10px;
+    }
+     .watch-live:hover {
+         background-color: white;
+         color: black;
+    }
+    /* players start */
+     .top-players {
+         grid-template-columns: repeat(2, 1fr);
+    }
+     .top-player {
+         margin: 0 auto;
+         margin-left: -23%;
+         width: 330px;
+         height: 474px;
+         background-color: white;
+         margin-bottom: 20px;
+         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+         flex-direction: column;
+         align-items: center;
+    }
+     .player-thumbnil img {
+         padding: 5px;
+         width: 320px;
+         height: 256px;
+    }
+    /* Heighlits start */
+     .all-hilights-copa-amarica{
+         margin-top: 5px;
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+    }
+     .all-hiligets-details{
+         margin: 0 auto;
+         margin-top: 5%;
+         align-items: center;
+    }
+     .watch-now{
+         margin-left: auto;
+         margin-bottom: 30px;
+    }
+     #watch-now:hover {
+         background-color: rgb(26, 38, 200);
+         color: white;
+    }
+     .all-hiligets-images img{
+         margin-left: 14px;
+         width: 90%;
+         height: 270px;
+    }
+    /* Sponsor Start */
+     .sponsor {
+         margin-top:-20%;
+         width: 100%;
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 30px;
+    }
+     .sponsor-logo img{
+         width: 70px;
+    }
+     .sponsor-logo a {
+         padding: 2px;
+         margin-bottom: 30px;
+    }
+    /* recent vedio */
+     .lested_vedio_1 {
+         width: 100%;
+         height: auto;
+         background-color: #2d25a0;
+         color: white;
+         margin-bottom: 30px;
+    }
+     .latest-vedio {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-row-gap: 10px;
+         margin-left: 0px;
+    }
+     .vedio {
+         display: flex;
+         align-items: center;
+         margin: 0 auto;
+         padding-bottom: 20px;
+    }
+     .vedio iframe{
+         height: 300;
+         width: 370px;
+    }
+    /* logo and footer */
+     .logo-images img {
+         width: 300px;
+         height: 80px;
+    }
+}
+ 
