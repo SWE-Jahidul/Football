@@ -270,16 +270,17 @@ body{
 /* players start */
 
 .top-players {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 .top-player {
-    justify-content: center;   
+    margin-left: -35px;
     width: 330px;
     height: 474px;
     background-color: white;
     margin-bottom: 27px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    flex-direction: column;
+    align-items: center;
 }
 .player-thumbnil img {
     padding: 5px;
