@@ -328,7 +328,7 @@ body{
 }
 .top-player {
     margin: 0 auto;
-    margin-left: -15px;
+    margin-left: -32px;
     width: 330px;
     height: 474px;
     background-color: white;
@@ -419,7 +419,8 @@ margin-bottom: 30px;
 
 .vedio iframe{
     height: 300;
-    width: 370px;
+    width: 340px;
+    padding-left: 2%;
 }
 
 /* logo and footer  */
@@ -428,3 +429,178 @@ margin-bottom: 30px;
     height: 80px;
 }
 }
+
+
+/* ===============================================================
+                    Responsive For mobile Devices 
+================================================================== */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    body{
+        width: 100%;
+    }
+    /* top header  */
+    .top-header-details {
+        display: inline-block;
+        align-items: center;
+    }
+    
+    .top-header-heading {
+        margin-top: 20%;
+        font-size: 36px;
+        font-weight: 700;
+        margin-left: 16px;
+        color: #ffffff;
+    }
+    
+    .top-header {
+        background-color: #2d25a0;
+        height: auto;
+    }
+    .top-header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+    .top-header-details {
+        display: inline-block;
+        align-items: center;
+    }
+    
+    .top-header-images img {
+        margin-top: 20%;
+        width: 329px;
+        height: 259.17px;
+        margin-bottom: 66px;
+    }
+    
+    .watch-live {
+        width: 168px;
+        height: 44px;
+        background-color: #e02c6d;
+        border: 0px;
+        color: white;
+        margin-left: 16px;
+    }
+    
+    .watch-live i {
+        padding-left: 10px;
+    }
+    
+    .watch-live:hover {
+        background-color: white;
+        color: black;
+    
+    }
+    
+    /* players start */
+    
+    .top-players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-player {
+        margin: 0 auto;
+        margin-left: -23%;
+        width: 330px;
+        height: 474px;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        flex-direction: column;
+        align-items: center;
+    }
+    .player-thumbnil img {
+        padding: 5px;
+        width: 320px;
+        height: 256px;
+    }
+    
+    /* Heighlits start  */
+    .all-hilights-copa-amarica{
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .all-hiligets-details{
+        margin: 0 auto;
+    margin-top: 5%;
+    align-items: center;
+    
+    }
+    
+    .watch-now{
+        margin-left: auto;
+    margin-bottom: 30px;
+    }
+        
+        #watch-now:hover {
+            background-color: rgb(26, 38, 200);
+            color: white;
+        
+        }
+        
+        .all-hiligets-images img{
+            margin-left: 14px;
+         width: 90%;
+            height: 270px;
+        
+        }
+    
+    /* Sponsor Start  */
+   
+    .sponsor {
+        margin-top:-20%;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .sponsor-logo img{
+        width: 70px;
+    }
+    .sponsor-logo a {
+        padding: 2px;
+        margin-bottom: 30px;
+    }
+    
+    
+    /* recent vedio  */
+    
+    .lested_vedio_1 {
+        width: 100%;
+        height: auto;
+        background-color: #2d25a0;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .latest-vedio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+        margin-left: 0px;
+    
+    }
+    
+    .vedio {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    
+    .vedio iframe{
+        height: 300;
+        width: 370px;
+    }
+    
+    /* logo and footer  */
+    .logo-images img {
+        width: 300px;
+        height: 80px;
+    }
+    }
+    
