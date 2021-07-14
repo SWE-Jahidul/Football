@@ -129,11 +129,11 @@ main {
                         All heighigts section start 
  =============================================================================*/
 .all-hilights-copa-amarica{
-    margin-top: 165px;
+    margin-top: 115px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
-    padding-bottom: 158px;
+    padding-bottom: 108px;
 }
 
 .all-hiligets-details{
@@ -177,6 +177,7 @@ margin-left: -25%;}
     display: grid;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .sponsor h1 {
